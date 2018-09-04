@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMember.cs" />
+    <Compile Include="IReadExpense.cs" />
+    <Compile Include="ITripGroup.cs" />
+    <Compile Include="IWriteExpense.cs" />
+    <Compile Include="Member.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadExpense.cs" />
+    <Compile Include="TripGroup.cs" />
+    <Compile Include="WriteExpense.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
